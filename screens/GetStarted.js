@@ -14,7 +14,7 @@ export default function GetStarted() {
             <StatusBar animated={true} backgroundColor={Colors.primary} barStyle="dark-content" />
             <SafeAreaView style={styles.screen}>
                 <View style={styles.imageContainer}>
-                    <Image style={styles.image} source={assets.eating02} />
+                    <Image style={styles.image} source={assets.eating01} />
                 </View>
                 <View style={styles.container}>
                     <View style={styles.textContainer}>
