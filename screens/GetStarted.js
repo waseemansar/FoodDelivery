@@ -4,9 +4,9 @@ import Button from "../components/UI/Button";
 import assets from "../constants/assets";
 import { Colors, Fonts, Sizes } from "../constants/theme";
 
-export default function GetStarted() {
+export default function GetStarted({ navigation }) {
     function getStartedHandler() {
-        console.log("Get Started Clicked!");
+        navigation.navigate("BottomNavigation", { screen: "Home" });
     }
 
     return (
